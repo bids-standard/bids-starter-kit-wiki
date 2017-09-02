@@ -41,8 +41,30 @@ https://github.com/gllmflndn/JSONio
 # Reading and writing .tsv files
 
 ## Matlab
-* Reading a .tsv file:
+### Reading a .tsv file:
 
 ```matlab
     readtable([filename],'FileType','text','Delimiter','\t','TreatAsEmpty',{'N/A','n/a'});
 ```
+
+### Writing a `.tsv` file: 
+```
+root_dir = 'MyRootDir';
+bidsProject = 'temp';
+bids_particpants_name = ['participants.tsv'];
+ 
+participant_id = ['sub-01'; 'sub-02']; % onsets in seconds
+age = [20 30]';
+sex = ['m';'f'];
+ 
+t = table(participant_id,age,sex);
+writetable(t,fullfile(root_dir,bidsProject,bids_particpants_name),'FileType','text','Delimiter','\t');
+```
+ 
+## Excel
+* Create a file with the following columns (at least, for other values see... link to BIDS)
+   * participant_id        
+   * age 
+   * sex
+* Save as tab separated `.txt` and change extension to `.tsv`
+ 
