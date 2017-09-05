@@ -17,7 +17,7 @@ These three types of files are organized into a hierarchy of folders that have s
  
 # Starting with a subject
 * Create a `<Project>/participants.tsv` file
-* Create the `<Project>/<Subject>/<Session>/<Acquisition>` folder
+* Create the `<Project>/<Subject>/<Session>/<Acquisition>` folder, for example: MyProject/sub-01/ses-01/anat/
  
 ## Which files go into the acquisition folder?
 * **anat**: Anatomical MRI data in folder: `Project/sub-<>/ses-<>/anat/`
