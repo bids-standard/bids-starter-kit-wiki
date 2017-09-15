@@ -28,11 +28,11 @@ These three types of files are organized into a hierarchy of folders that have s
  
 * **fmri**: Functional MRI data in folder: `Project/sub-<>/ses-<>/func/`
    * Data:
-      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_proc-<>_bold.nii.gz`
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_bold.nii.gz`
    * Metadata:
-      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_proc-<>_bold.json`
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_bold.json`
    * Events:
-      * `sub-<>_ses-<>_task-<>_acq-<>_run-<> _proc-<>_events.tsv`
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_events.tsv`
  
 * **meg**: MEG data in folder: Project/sub-<>/ses-<>/meg/
    * Data:
