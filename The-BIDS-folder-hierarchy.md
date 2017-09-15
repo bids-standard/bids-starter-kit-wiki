@@ -27,7 +27,12 @@ These three types of files are organized into a hierarchy of folders that have s
       * `sub-<>_ses-<>_T1w.json`
  
 * **fmri**: Functional MRI data in folder: `Project/sub-<>/ses-<>/func/`
-   * TODO
+   * Data:
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_proc-<>_bold.nii.gz`
+   * Metadata:
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_proc-<>_bold.json`
+   * Events:
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<> _proc-<>_events.tsv`
  
 * **meg**: MEG data in folder: Project/sub-<>/ses-<>/meg/
    * Data:
