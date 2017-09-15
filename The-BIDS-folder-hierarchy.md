@@ -59,8 +59,8 @@ These three types of files are organized into a hierarchy of folders that have s
    * Events:
       * `sub-<>_ses-<>_task-<>_acq-<>_run-<> _proc-<>_events.tsv`
    * Electrode locations:
-      * `sub-<>_ses-<>_acq-<>_loc.json`               //coordinate metadata//
-      * `sub-<>_ses-<>_acq-<>_loc.tsv `               //electrode xyz coordinates//
-      * `sub-<>_ses-<>_acq-<>_locinfo.txt`            //freeform text//
-      * `sub-<>_ses-<>_acq-<>_photo.jpg`              //operative photo//
+      * `sub-<>_ses-<>_acq-<>_loc.json`               _coordinate metadata_
+      * `sub-<>_ses-<>_acq-<>_loc.tsv `               _electrode xyz coordinates_
+      * `sub-<>_ses-<>_acq-<>_locinfo.txt`            _freeform text_
+      * `sub-<>_ses-<>_acq-<>_photo.jpg`              _operative photo_
  
