@@ -41,7 +41,7 @@ These three types of files are organized into a hierarchy of folders that have s
    * Metadata:
       * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_phasediff.json`
  
-* **meg**: MEG data in folder: Project/sub-<>/ses-<>/meg/
+* **meg**: MEG data in folder: `Project/sub-<>/ses-<>/meg/`
    * Data:
       * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_proc-<>_meg.extension`
    * Metadata:
@@ -56,7 +56,7 @@ These three types of files are organized into a hierarchy of folders that have s
       * `sub-<>_ses-<>_acq-<>_fidinfo.txt`
       * `sub-<>_ses-<>_acq-<>_headshape.extension`
  
-* **ieeg**: intracranial EEG data in folder: Project/sub-<>/ses-<>/ieeg/
+* **ieeg**: intracranial EEG data in folder: `Project/sub-<>/ses-<>/ieeg/`
    * Data:
       * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_proc-<>_ieeg.extension`
    * Metadata:
