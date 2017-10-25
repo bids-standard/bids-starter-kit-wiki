@@ -34,6 +34,13 @@ These three types of files are organized into a hierarchy of folders that have s
    * Events:
       * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_events.tsv`
  
+* **fmap**: Fieldmap MRI data in folder: `Project/sub-<>/ses-<>/fmap/`
+   * Data:
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_phasediff.nii.gz`
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_magnitude.nii.gz`
+   * Metadata:
+      * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_phasediff.json`
+ 
 * **meg**: MEG data in folder: Project/sub-<>/ses-<>/meg/
    * Data:
       * `sub-<>_ses-<>_task-<>_acq-<>_run-<>_proc-<>_meg.extension`
