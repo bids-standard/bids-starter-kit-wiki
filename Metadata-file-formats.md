@@ -62,7 +62,7 @@ writetable(t,fullfile(root_dir,bidsProject,bids_particpants_name),'FileType','te
 ```
  
 ## Excel
-* Create a file with the following columns (at least, for other values see... link to BIDS)
+* Create a file with the following columns (at least, for other values see paragraph 8.11 in [BIDS spec 1.0.2](http://bids.neuroimaging.io/bids_spec1.0.2.pdf))
    * participant_id        
    * age 
    * sex
