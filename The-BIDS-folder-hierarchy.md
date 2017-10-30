@@ -93,7 +93,7 @@ Next we'll step through a sample process one might follow when creating a BIDS h
 First we'll create the folder hierarchy to be used in this format.
 
 * Create the top-level project folder (`myProject/`)
-* Create a top-level metadata file (`<Project>/participants.tsv`)
+* Create a top-level metadata files (`myProject/participants.tsv` and `myProject/task-mytask.json`)
 
 ## Create a subject's folder
 Next we'll add the folder hierarchy for one subject:
