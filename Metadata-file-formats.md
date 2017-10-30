@@ -1,20 +1,31 @@
-Metadata are stored in .json and .tsv files. There are several ways to read and write these files.
+Metadata are stored in .json and .tsv files. These files are language-agnostic, meaning you
+can work with them in, e.g., Python, Matlab, or R. This page covers common ways to read/write
+these files in common languages for neuroscience analysis.
 
-# Reading and writing .json files
+# JSON Files
+JSON files are text files that take the following structure:
+`{'key': 'value', 'key2': 'value2', 'key3': {'subkey1': 'subvalue1'}}`.
+
+Note that they can be nested (curly brackets within curly brackets). Here are some
+common ways to read / write these files.
 
 ## Online
-Go to http://jsoneditoronline.org/
+To read/write JSON online, we recommend the following website:
+
+http://jsoneditoronline.org/
 
 ## Matlab
-Download a jsonread and write toolbox, an example of this is:
+There are many toolboxes in Matlab for reading / writing JSON files. One
+example is:
+
 https://github.com/gllmflndn/JSONio
 
-* Reading a .json file:
+### Reading a `.json` file
 ```matlab
     jsonread([filename])  
 ```
 
-* Writing a .json file:
+### Writing a `.json` file
 ```matlab
     root_dir = './';
     project = 'temp';
@@ -37,8 +48,33 @@ https://github.com/gllmflndn/JSONio
     json_options.indent = '    '; % this makes the json look pretier when opened in a txt editor
     jsonwrite(loc_json_name,loc_json,json_options)
 ```
+## Python
+In Python, JSON support is built into the core library, meaning you don't need to install anything
+to read/write JSON files. In addition, the structure of JSON is almost identical to that of
+Python dictionaries (assuming you are only storing text / numbers in the dictionary). To that
+extent.
 
-# Reading and writing .tsv files
+### Reading a `.json` file
+```python
+import json
+with open('myfile.json', 'r') as ff:
+    data = json.load(ff)
+```
+
+### Writing a `.json` file
+```python
+import json
+data = {'field1': 'value1', 'field2': 3, 'field3': 'field3'}
+with open('my_output_file.json', 'w') as ff:
+    json.dump(data, ff)
+```
+
+# TSV files
+A Tab-Separate Values (TSV) file is a text file where tab characters (`\t`) separate
+fields that are in the file. It is structured as a table, with each column representing
+a field of interest, and each row representing a single datapoint.
+
+Below are ways to read / write TSV files in common languages.
 
 ## Matlab
 ### Reading a .tsv file:
@@ -60,7 +96,47 @@ sex = ['m';'f'];
 t = table(participant_id,age,sex);
 writetable(t,fullfile(root_dir,bidsProject,bids_particpants_name),'FileType','text','Delimiter','\t');
 ```
- 
+
+## Python
+In Python, the easiest way to work with TSV files is to use the Pandas library. This provides a high-level
+structure to organize, manipulate, clean, and visualize tabular data. You can install `pandas` with the
+following command:
+
+`pip install pandas`
+
+### Reading a `.tsv` file
+There are many ways to read a `.tsv` file in Pandas. One option is the following:
+
+```python
+import pandas as pd
+pd.read_csv('./ds001/participants.tsv', delimiter='\t')
+```
+Note that this function will default to using `,` as a delimiter, so we explicitly give it the tab character.
+
+### Writing a `.tsv` file
+You can write to a `.tsv` file using the `to_csv` method of a pandas DataFrame:
+
+```python
+import pandas as pd
+df = pd.read_csv('./ds001/participants.tsv', delimiter='\t')
+
+# Add an extra column for demonstration
+df['subject_id'] = range(len(df))
+
+# Show contents of the dataframe
+df.head()
+    Out:
+          participant_id sex  age  subject_id
+    0         sub-01   F   26           0
+    1         sub-02   M   24           1
+    2         sub-03   F   27           2
+    3         sub-04   F   20           3
+    4         sub-05   M   22           4
+
+# Save as a CSV file
+df.to_csv('my_new_file.csv', sep='\t')
+```
+
 ## Excel
 * Create a file with the following columns (at least, for other values see paragraph 8.11 in [BIDS spec 1.0.2](http://bids.neuroimaging.io/bids_spec1.0.2.pdf))
    * participant_id        
