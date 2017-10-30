@@ -43,7 +43,7 @@ may be omitted.
 ## acquisition
 Represents different types of data. Here's an incomplete list of some acquisition types:
 
-* 'anat','fmri','dwi','meg','ieeg','eeg','derivatives','...'
+* 'anat', 'fmri', 'dwi', 'meg', 'ieeg', 'eeg', 'derivatives', '...'
 
 The name for the acquisition depends on the recording modality. See the BIDS specifications for a list
 of possible acquisition names.
