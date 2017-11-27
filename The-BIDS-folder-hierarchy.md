@@ -150,9 +150,8 @@ Here's a list of these folders:
    * Events:
       * `sub-<>_ses-<>_task-<>_acq-<>_run-<> _proc-<>_events.tsv`
    * Electrode locations:
-      * `sub-<>_ses-<>_acq-<>_electrodes.json`        _coordinate metadata_
       * `sub-<>_ses-<>_acq-<>_electrodes.tsv`         _electrode xyz coordinates_
-      * `sub-<>_ses-<>_acq-<>_electrodesinfo.txt`     _freeform text_
+      * `sub-<>_ses-<>_acq-<>_coordframe.json`        _coordinate metadata_      
       * `sub-<>_ses-<>_acq-<>_photo.jpg`              _operative photo_
  
 ## Wrapping up
