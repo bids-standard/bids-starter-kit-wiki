@@ -69,6 +69,31 @@ with open('my_output_file.json', 'w') as ff:
     json.dump(data, ff)
 ```
 
+## R
+There are several packages for reading and writing JSON files from R. In this example, we will be using jsonlite. Remember to install and call a package before using it.
+
+https://github.com/jeroen/jsonlite
+
+### Installing required package
+```R
+    install.packages('jsonlite')
+```
+
+### Reading a `.json` file:
+```R
+    library(jsonlite)
+    data = fromJSON('myfile.json', pretty=TRUE)
+```
+
+### Writing a `.json` file:
+```R
+    library(jsonlite)
+    data = {'field1': 'value1', 'field2': 3, 'field3': 'field3'}
+    writeLines(toJSON(data, pretty=TRUE), file="myData.json")
+```
+
+
+
 # TSV files
 A Tab-Separate Values (TSV) file is a text file where tab characters (`\t`) separate
 fields that are in the file. It is structured as a table, with each column representing
@@ -77,7 +102,7 @@ a field of interest, and each row representing a single datapoint.
 Below are ways to read / write TSV files in common languages.
 
 ## Matlab
-### Reading a .tsv file:
+### Reading a `.tsv` file:
 
 ```matlab
     readtable([filename],'FileType','text','Delimiter','\t','TreatAsEmpty',{'N/A','n/a'});
@@ -144,3 +169,24 @@ df.to_csv('my_new_file.csv', sep='\t')
    * sex
 * Save as tab separated `.txt` and change extension to `.tsv`
  
+## R
+Reading and writing tab separated files comes natively in R, no need for extra packages.
+
+### Reading a `.tsv` file:
+In this example, we assume the .tsv includes column names (headers), and explicitly set column separator (delimitor) to tab ('\t')
+```
+data = read.table('myFile.tsv', header=TRUE, sep='\t')
+```
+
+### Writing a `.tsv` file:
+When writing files, column and row names are always saved, we remove row names, and quotes from the outpur explicitly by setting them to FALSE.
+
+```R
+data = cbind.data.frame(
+  participant_id = c('sub-01', 'sub-02'),
+  age = c(20,30),
+  sex = c('m','f'))
+
+write.table(data, file='myData.tsv',sep='\t',
+  row.names = FALSE, quote = FALSE)
+```
