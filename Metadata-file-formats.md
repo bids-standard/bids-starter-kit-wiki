@@ -88,8 +88,8 @@ https://github.com/jeroen/jsonlite
 ### Writing a `.json` file:
 ```R
     library(jsonlite)
-    data = {'field1': 'value1', 'field2': 3, 'field3': 'field3'}
-    writeLines(toJSON(data, pretty=TRUE), file="myData.json")
+    data = '{"field1": "value1", "field2": 3, "field3": "field3"}'
+    writeLines(data, file="myData.json")
 ```
 
 
