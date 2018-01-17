@@ -46,7 +46,7 @@ https://github.com/gllmflndn/JSONio
     anat_json.PulseSequence = 'T1 weighted SPGR';
 
     json_options.indent = '    '; % this makes the json look pretier when opened in a txt editor
-    jsonwrite(loc_json_name,loc_json,json_options)
+    jsonwrite(loc_json_name,anat_json,json_options)
 ```
 ## Python
 In Python, JSON support is built into the core library, meaning you don't need to install anything
