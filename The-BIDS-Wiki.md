@@ -2,4 +2,5 @@ Welcome! The BIDS data specification is a way to structure your raw data and met
 
 See the pages in the sidebar for more information.
 
-**Note: this wiki is under construction so the content may change quickly**
+**NEW:**
+* New link to step by step guide for DICOM to BIDS conversion
