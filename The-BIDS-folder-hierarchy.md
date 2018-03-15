@@ -153,7 +153,13 @@ Here's a list of these folders:
       * `sub-<>_ses-<>_acq-<>_electrodes.tsv`         _electrode xyz coordinates_
       * `sub-<>_ses-<>_acq-<>_coordframe.json`        _coordinate metadata_      
       * `sub-<>_ses-<>_acq-<>_photo.jpg`              _operative photo_
- 
+* **dwi**: Diffusion Imaging Data (`myProject/sub-01/ses-01/dwi/`)
+   * Data:  
+      * `sub-< >_ses-< >_acq-< >_run-< >_dwi.nii.gz`
+      * `sub-< >_ses-< >_acq-< >_run-< >_dwi.bval`
+      * `sub-< >_ses-< >_acq-< >_run-< >_dwi.bvec`
+   * Metadata:
+      * `sub-< >_ses-< >_acq-< >_run-< >_dwi.json`
 ## Wrapping up
 Note that this is only a single example. For a much more complete list of BIDS example
 data structures, see the [BIDS examples repository](https://github.com/INCF/BIDS-examples).
