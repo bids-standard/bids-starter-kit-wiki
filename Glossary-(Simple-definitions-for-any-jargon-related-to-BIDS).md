@@ -19,12 +19,16 @@ derivatives: processed (i.e. non-raw) data
 dataset: a collection of data that can include many subjects or sessions
 
 #### E
+extensions: branches of BIDS that are for specific types of data (i.e. PET)
+
 
 #### F
 
 #### G
 
 #### H
+heuristic file: a file that can sort your data into categories based on naming patterns
+
 
 #### I
 
