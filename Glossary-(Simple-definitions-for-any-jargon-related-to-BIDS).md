@@ -29,9 +29,7 @@ dataset: a collection of data that can include many subjects or sessions
 #### I
 
 #### J
-JSON: File that holds a form of values.
-Example: {"firstName": "John",
-          "lastName": "Smith"}
+JSON: File that holds a form of values. Example: {"firstName": "John", "lastName": "Smith"}
 
 #### K
 
@@ -39,12 +37,13 @@ Example: {"firstName": "John",
 
 #### M
 metadata: supporting data that describes your main data (i.e. data about data).
-Example: "Scan Date" would be metadata that describes your actual data (Neuroimaging scans) 
+
+example: "Scan Date" would be metadata that describes your actual data (Neuroimaging scans) 
 
 #### N
 
 #### O
-Open science: Scientific research and data that is free and available for everyone to use
+open science: Scientific research and data that is free and available for everyone to use
 
 #### P
 
