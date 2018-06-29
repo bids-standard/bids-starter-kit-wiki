@@ -1,5 +1,6 @@
 # Glossary
-### Please feel free to add to this list! 
+### Please feel free to add to this list!
+### If you are unsure about a term/definition that you are adding, please add it anyway and add an asterix(*) to signal that you want it reviewed.
 
 #### 0-9
 
