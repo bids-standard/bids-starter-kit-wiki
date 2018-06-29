@@ -34,6 +34,7 @@ JSON: File that holds a form of values. Example: {"firstName": "John", "lastName
 #### K
 
 #### L
+library: 
 
 #### M
 metadata: supporting data that describes your main data (i.e. data about data).
@@ -46,14 +47,20 @@ example: "Scan Date" would be metadata that describes your actual data (Neuroima
 open science: Scientific research and data that is free and available for everyone to use
 
 #### P
+parameter:
+
 
 #### Q
 
 #### R
+README:
 
 #### S
 subject: a person / animal / object participating in a study
+
 session: 
+
+sequence: 
 
 #### T
 tsv: a file that contains a chart (like in Excel). Values inside are separated by tabs
