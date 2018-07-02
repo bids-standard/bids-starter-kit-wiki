@@ -12,7 +12,7 @@ BIDS: Brain Imaging Data Structure
 a standardised way to organise your neuroimaging data
 
 #### C
-container: Package of software that allows you to run programs inside it
+container: A container is a file which packages all the software and instructions required to perform a series of tasks. 
 
 #### D
 derivatives: processed (i.e. non-raw) data
@@ -24,6 +24,7 @@ extensions: branches of BIDS that are for specific types of data (i.e. PET)
 
 
 #### F
+file extension: A file extension is the suffix following the last . in a filename, for example the `.jpeg` in `dog.jpeg`. These exist to give us instructions on how to interpret files. File extansions that are important in BIDS are [`.json`](#j), `.nii`, [`.tsv`](#t)
 
 #### G
 
@@ -34,7 +35,7 @@ heuristic file: a file that can sort your data into categories based on naming p
 #### I
 
 #### J
-JSON: File that holds a form of values. Example: {"firstName": "John", "lastName": "Smith"}
+JSON: A JSON file can be though of as a form or as a list of name value pairs. Example: {"firstName": "John", "lastName": "Smith"}.
 
 #### K
 
@@ -42,7 +43,7 @@ JSON: File that holds a form of values. Example: {"firstName": "John", "lastName
 library: 
 
 #### M
-metadata: supporting data that describes your main data (i.e. data about data).
+metadata: Supporting data that describes your main data (i.e. data about data). For example if your main data is an mri image your metadata might be information about the date and time of imaging, the image type, the machine serial number etc.
 
 example: "Scan Date" would be metadata that describes your actual data (Neuroimaging scans) 
 
@@ -52,13 +53,13 @@ example: "Scan Date" would be metadata that describes your actual data (Neuroima
 open science: Scientific research and data that is free and available for everyone to use
 
 #### P
-parameter:
+parameter: generally speaking, a parameter is numerical variable that we (scientists, computer programs, etc) are able to manipulate in order to change outcomes.*
 
 
 #### Q
 
 #### R
-README:
+README: A readme is a text file. The readme's purpose is to provide explanation and documentation for the contents of the folder it lives in.
 
 #### S
 subject: a person / animal / object participating in a study
@@ -67,8 +68,10 @@ session:
 
 sequence: 
 
+sidecar (as in json sidecar): A json file associated to a nii file (usually by having the same name preceding the [file extension](#f)). Together these make up an acquisition; the nii file contains the image and the json contains various [metadata](#m).
+
 #### T
-tsv: a file that contains a chart (like in Excel). Values inside are separated by tabs
+tsv: tsv stands for **t**ab **s**eparated **v**alues. A .tsv file contains a table (like a simple excel spreadsheet) containing text. Table values are separated by tabs.
 
 #### U
 
