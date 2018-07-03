@@ -2,6 +2,8 @@
 ### Please feel free to add to this list!
 ### If you are unsure about a term/definition that you are adding, please add it anyway and add an asterix(*) to signal that you want it reviewed.
 
+If you can't find what you're looking for on this page you might find an answer on [MIT Brain Research's glossary of brain imaging terminology](http://mindhive.mit.edu/node/71)
+
 #### 0-9
 
 #### A
