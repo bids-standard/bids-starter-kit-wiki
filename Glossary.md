@@ -1,4 +1,4 @@
-# Glossary
+# BIDS jargon busting
 
 <img align="right" width="35%" src="https://imgs.xkcd.com/comics/period_speech.png" alt="XKCD comic 771"/>
 
