@@ -55,10 +55,10 @@ We aren't covering all words associated with brain imaging (that might be rather
 #### K
 
 #### L
-* **library*: 
+* **library**: 
 
 #### M
-* **metadata*: Supporting data that describes your main data (i.e. data about data). For example if your main data is an MRI image your metadata might be information about the date and time of imaging, the image type, the machine serial number etc.
+* **metadata**: Supporting data that describes your main data (i.e. data about data). For example if your main data is an MRI image your metadata might be information about the date and time of imaging, the image type, the machine serial number etc.
   * An example: "Scan Date" would be metadata that describes your actual data (Neuroimaging scans) 
 
 #### N
@@ -84,7 +84,7 @@ We aren't covering all words associated with brain imaging (that might be rather
 * **sidecar* (as in json sidecar): A json file associated to a nii file (usually by having the same name preceding the [file extension](#f)). Together these make up an acquisition; the nii file contains the image and the json contains various [metadata](#m).
 
 #### T
-* **tsv*: tsv stands for **t**ab **s**eparated **v**alues. A .tsv file contains a table (like a simple excel spreadsheet) containing text. Table values are separated by tabs.
+* **tsv**: tsv stands for **t**ab **s**eparated **v**alues. A .tsv file contains a table (like a simple excel spreadsheet) containing text. Table values are separated by tabs.
 
 #### U
 
