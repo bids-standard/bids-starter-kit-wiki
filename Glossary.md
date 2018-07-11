@@ -81,7 +81,7 @@ We aren't covering all words associated with brain imaging (that might be rather
 
 * **sequence**: 
 
-* **sidecar* (as in json sidecar): A json file associated to a nii file (usually by having the same name preceding the [file extension](#f)). Together these make up an acquisition; the nii file contains the image and the json contains various [metadata](#m).
+* **sidecar** (as in json sidecar): A json file associated to a nii file (usually by having the same name preceding the [file extension](#f)). Together these make up an acquisition; the nii file contains the image and the json contains various [metadata](#m).
 
 #### T
 * **tsv**: tsv stands for **t**ab **s**eparated **v**alues. A .tsv file contains a table (like a simple excel spreadsheet) containing text. Table values are separated by tabs.
