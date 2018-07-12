@@ -20,5 +20,5 @@ Our **contributing guidelines** for this process can be found [here](https://git
 
 <br>
 
-For any questions, please contact us on [gitter](https://gitter.im/INCF/bids-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+For any questions, please contact us on [gitter](https://gitter.im/INCF/bids-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) or
 [slack](https://brainhack-slack-invite.herokuapp.com/) you can follow the link to get an invite then join the #bids-starter-kit channel!
