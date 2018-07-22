@@ -1,4 +1,5 @@
 ### [Home](https://github.com/INCF/bids-starter-kit/wiki)
+### [Contact](Contact)
 ### [Glossary](Glossary)
 ### [Metadata File Formats](Metadata-file-formats)
 ### [Links to tutorials](Tutorials)
