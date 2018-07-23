@@ -45,12 +45,13 @@ We aren't covering all words associated with brain imaging (that might be rather
 #### G
 
 #### H
-* **heuristic file**: a file that can sort your data into categories based on naming patterns
+* **heuristic file**: A file that can sort your data into categories based on naming patterns
 
 #### I
+* **inheritance**: Any metadata file (.json, .bvec, .tsv, etc.) may be defined at any directory level. The values from the top level are inherited by all lower levels unless they are overridden by a file at the lower level.
 
 #### J
-* **JSON**: A JSON file can be though of as a form or as a list of name value pairs. Example: {"firstName": "John", "lastName": "Smith"}.
+* **JSON**: A JSON file can be thought of as a form or as a list of name-value pairs. Example: {"firstName": "John", "lastName": "Smith"}.
 
 #### K
 
