@@ -1,10 +1,13 @@
 ## What is a BIDS App?
 
-A BIDS App is an analysis pipeline that takes a BIDS formatted dataset as input and has all of its dependencies packaged within a container ([Docker](https://www.docker.com/) or [Singularity](https://singularity.lbl.gov/))
+A [BIDS App](http://bids-apps.neuroimaging.io/) is an analysis pipeline that takes a BIDS formatted dataset as input and has all of its dependencies packaged within a container ([Docker](https://www.docker.com/) or [Singularity](https://singularity.lbl.gov/))
 
 ## Helpful Links
 
-[Example BIDS App repository](https://github.com/BIDS-Apps/example) : A minimalist example of a BIDS App consisting of a Dockerfile and a simple entry point script (written in this case in Python) accepting the standard BIDS Apps command line arguments. This repository can be used as a template for new BIDS Apps.
+* [BIDS Apps home page](http://bids-apps.neuroimaging.io/)
+* [BIDS Apps tutorial](http://bids-apps.neuroimaging.io/tutorial/)
+* [Example BIDS App repository](https://github.com/BIDS-Apps/example) : A minimalist example of a BIDS App consisting of a Dockerfile and a simple entry point script (written in this case in Python) accepting the standard BIDS Apps command line arguments. This repository can be used as a template for new BIDS Apps.
+* BIDS apps: Improving ease of use, accessibility, and reproducibility of neuroimaging data analysis methods (Gorgolewski et al, Plos Comp Bio, 2017) doi: [10.1371/journal.pcbi.1005209](https://doi.org/10.1371/journal.pcbi.1005209)
 
 ## FAQ
 
