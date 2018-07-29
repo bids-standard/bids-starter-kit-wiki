@@ -15,9 +15,3 @@ The various pages in this wiki can be found in the sidebar to your right 👉
 <br>
 
 Please note that this wiki is actively maintained and still growing, so please help us add anything that you feel would be useful! 
-
-Our **contributing guidelines** for this process can be found [here](https://github.com/INCF/bids-starter-kit/blob/master/CONTRIBUTING.md)
-
-<br>
-
-For any questions, please [contact us](https://github.com/INCF/BIDS-Starter-Kit/wiki/Contact)
