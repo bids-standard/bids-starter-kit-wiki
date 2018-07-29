@@ -1,4 +1,10 @@
-We have lots of different ways of staying in touch! You can come chat via our [gitter channel](https://gitter.im/INCF/bids-starter-kit) or [slack](https://brainhack.slack.com/messages/C8RG7F6PN/details/). (If you aren't a member of the slack team you can join at [this link](https://brainhack-slack-invite.herokuapp.com)).
+We have lots of different ways of staying in touch! You can come chat via our 
+
+[gitter channel](https://gitter.im/INCF/bids-starter-kit) 
+
+or 
+
+[slack](https://brainhack.slack.com/messages/C8RG7F6PN/details/). (If you aren't a member of the slack team you can join at [this link](https://brainhack-slack-invite.herokuapp.com)).
 
 We'd love for you to join the mailing list (bids-discussion@googlegroups.com, click [here](https://groups.google.com/forum/#!forum/bids-discussion) to join). You might find some helpful answers and discussions there.
 
