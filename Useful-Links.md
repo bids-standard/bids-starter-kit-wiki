@@ -1,4 +1,4 @@
-## MATLAB functions
+## MATLAB
 
 [MATLAB code for MEG-BIDS](https://github.com/lorenzomagazzini/mat-meg-bids)
 
