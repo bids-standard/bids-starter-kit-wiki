@@ -9,3 +9,4 @@
 A guide to the different files and how they are organised in the BIDS directory structure
 ### [Tutorials](Tutorials)
 ### [Useful Links](Useful-links)
+A collection of links to useful code / other repositories relevant to BIDS
