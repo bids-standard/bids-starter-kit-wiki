@@ -1,6 +1,8 @@
 ### [Home](https://github.com/INCF/bids-starter-kit/wiki)
 ### [BIDS Apps Help](BIDS-Apps-Help)
+Helpful links and a FAQ about BIDS Apps
 ### [Community Resources](community-resources)
+A collection of resources from the community including slideshows / presentations / graphics / etc.
 ### [Contact](Contact)
 ### [Glossary](Glossary)
 ### [Metadata File Formats](Metadata-file-formats)
