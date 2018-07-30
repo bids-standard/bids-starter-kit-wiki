@@ -1,4 +1,4 @@
-**This is a collection of resources from the community.** 
+**This is a collection of resources from the community including slideshows / presentations / graphics / etc.** 
 
 **If you have prepared or presented anything that you would like to share, please add it to this list!** 
 
