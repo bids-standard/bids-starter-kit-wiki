@@ -1,14 +1,3 @@
-## MATLAB
-
-[MATLAB code for MEG-BIDS](https://github.com/lorenzomagazzini/mat-meg-bids)
-
-<br>
-
-## SPM
-
-[BIDS tools in SPM](https://en.wikibooks.org/wiki/SPM/BIDS)
-
-<br>
 
 ## Python
 
@@ -29,3 +18,13 @@
 [BIDS tools](https://github.com/robertoostenveld/bids) - tools to support general BIDS workflow and [Donders](https://www.ru.nl/donders/) specific documentation
 
 <br>
+
+## MATLAB
+
+[MATLAB code for MEG-BIDS](https://github.com/lorenzomagazzini/mat-meg-bids)
+
+<br>
+
+## SPM
+
+[BIDS tools in SPM](https://en.wikibooks.org/wiki/SPM/BIDS)
