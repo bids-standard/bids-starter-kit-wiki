@@ -14,4 +14,4 @@ The various pages in this wiki can be found in the sidebar to your right 👉
 
 <br>
 
-Please note that this wiki is actively maintained and still growing, so please help us add anything that you feel would be useful! 
+Please note that this wiki is actively maintained and still growing, so please help us add anything that you feel would be useful! You can read more information about [how to contribute in our guidelines](https://github.com/INCF/BIDS-Starter-Kit/blob/master/CONTRIBUTING.md).
