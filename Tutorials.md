@@ -1,10 +1,12 @@
-BIDS Tutorial Series: 
+## BIDS Tutorial Series: 
 
 
-Introductory Walkthrough http://reproducibility.stanford.edu/bids-tutorial-series-part-1a/
+### [Part 1a: Introductory Walkthrough](http://reproducibility.stanford.edu/bids-tutorial-series-part-1a/)
 
+<br>
 
-Automate the Introductory Walkthrough http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/
+### [Part 1b: Automate the Introductory Walkthrough](http://reproducibility.stanford.edu/bids-tutorial-series-part-1b/)
 
+<br>
 
-HeuDiConv Walkthrough http://reproducibility.stanford.edu/bids-tutorial-series-part-2a/
+### [Part 2a: HeuDiConv Walkthrough](http://reproducibility.stanford.edu/bids-tutorial-series-part-2a/)
