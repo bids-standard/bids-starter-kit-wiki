@@ -25,5 +25,5 @@
 
 ## Other
 
-[Graphical Representation of BIDS](https://drive.google.com/drive/folders/1xlfeAFpp8iOH12bXONfD9OsRGLFFSLD-)
+[Graphical Representation of BIDS](https://drive.google.com/drive/folders/1xlfeAFpp8iOH12bXONfD9OsRGLFFSLD-) - viewable with draw.io (a Google Drive extension)
 > Brainhack NYC 2018, NY USA - N Markowitz (2018)
