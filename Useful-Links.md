@@ -1,6 +1,7 @@
 **A collection of links to useful code / other repositories relevant to BIDS**
 
-## Python
+## Converting to BIDS
+> These tools require Python to run
 
 [BIDSIFY](https://github.com/spinoza-rec/bidsify) - convert raw data to BIDS format
 
