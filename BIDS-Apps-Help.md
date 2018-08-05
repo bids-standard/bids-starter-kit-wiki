@@ -52,3 +52,7 @@ It is an extremely helpful feature to have validation of the dataset as part of 
 You can release BIDS Apps using your own or your lab's account. However, if you want to be added to the BIDS docker hub, please message Chris Gorgolewski to have a repo created for you.
 
 If you base your code on https://github.com/BIDS-Apps/example deployment on docker hub will happen automatically via circleci
+
+## Testing Data
+
+For both lightweight and full datasets to test your BIDS App, choose from one of these [example datasets](https://github.com/INCF/BIDS-Starter-Kit/wiki/Dataset-Examples)
