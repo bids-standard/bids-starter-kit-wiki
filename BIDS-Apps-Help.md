@@ -44,3 +44,11 @@ for the analysis_level argument (see [fmriprep](http://fmriprep.readthedocs.io/e
 **Is it mandatory to first check the dataset validity using the BIDS-validator?**
 
 It is an extremely helpful feature to have validation of the dataset as part of your tool. However, it's not considered mandatory. (i.e. I know of many apps that just simply fail with an error message if the dataset is not BIDS compliant)
+
+<br>
+
+**How do I upload my BIDS App to the BIDS-App Github org? (i.e. so that it shows up [here](http://bids-apps.neuroimaging.io/apps/))**
+
+You can release BIDS Apps using your own or your lab's account. However, if you want to be added to the BIDS docker hub, please message Chris Gorgolewski to have a repo created for you.
+
+If you base your code on https://github.com/BIDS-Apps/example deployment on docker hub will happen automatically via circleci
