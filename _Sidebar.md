@@ -5,6 +5,7 @@ A guide to the different files and how they are organised in the BIDS directory 
 ### [Metadata File Formats](Metadata-file-formats)
 ### [Dataset Examples](dataset-examples)
 Raw (pre-BIDS) and BIDS compliant datasets
+### [BIDS Validator Info](bids-validator-info)
 ### [BIDS Apps Help](BIDS-Apps-Help)
 Helpful links and a FAQ about BIDS Apps
 ### [Glossary](Glossary)
