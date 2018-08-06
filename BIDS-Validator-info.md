@@ -1,6 +1,10 @@
+
 The BIDS Validator is an online tool that checks if your dataset is compliant with the BIDS standard.
 
-Please note that there is no file uploading as part of the validation.
+
+**Data Privacy and Confidentiality** 
+
+Please note that the web app is entirely browser(not server) based. As such, there is no file uploading as part of the validation.
 
 ## How to use
 
