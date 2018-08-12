@@ -8,6 +8,7 @@ Raw (pre-BIDS) and BIDS compliant datasets
 ### [BIDS Validator Info](bids-validator-info)
 ### [BIDS Apps Help](BIDS-Apps-Help)
 Helpful links and a FAQ about BIDS Apps
+### [BIDS Extensions](BIDS-Extentions)
 ### [Glossary](Glossary)
 ### [Publications](Publications)
 ### [Community Resources](community-resources)
